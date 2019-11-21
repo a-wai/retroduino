@@ -1,0 +1,36 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS6C62256-55PCN
+D 32K x 8 Low Power CMOS RAM, DIP-28
+K RAM SRAM CMOS MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C62256.pdf
+$ENDCMP
+#
+$CMP GAL22V10
+D Programmable Logic Array, DIP-20/SOIC-20/PLCC-20
+K GAL PLD 16V8
+$ENDCMP
+#
+$CMP PCF8584P
+D I2C Bus Controller, DIP-20
+K I2C
+$ENDCMP
+#
+$CMP SCC2691
+D Universal asynchronous receiver/transmitter (UART), DIP-24
+K UART
+F http://www.nxp.com/documents/data_sheet/PCF8584.pdf
+$ENDCMP
+#
+$CMP SCC2691AN1N24
+D Universal asynchronous receiver/transmitter, DIP-24
+K ACIA
+$ENDCMP
+#
+$CMP SST39SF020
+D Silicon Storage Technology (SSF) 256k x 8 Flash ROM
+K 256k flash rom
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+#End Doc Library
