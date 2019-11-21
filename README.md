@@ -8,8 +8,8 @@ on Arduino boards.
 
 ## Features
 
-This SBC (Single Board Computer) provides a UART interface, an I2C bus and 24
-GPIOs.
+This 130x75mm SBC (Single Board Computer) provides a UART interface, an I2C bus#
+and 24 GPIOs.
 
 It includes 31kB of SRAM, 32kB of flash memory (mounted on a ZIF socket for
 easier programming), and runs at 8MHz.
@@ -33,10 +33,10 @@ It can be powered using a 7-24V DC power supply.
 This project is still in its infancy: hardware design is complete, but not
 tested yet. The next steps are:
 
-[] program and test the GAL logic
-[] prototype a flash programmer (probably using a STM32 board)
-[] build the board
-[] write the software
+- [ ] program and test the GAL logic
+- [ ] prototype a flash programmer (probably using a STM32 board)
+- [ ] order the board and build the project
+- [ ] write the software
 
 ## Why?
 
@@ -46,7 +46,7 @@ widely available and so cheap? Because... Well, it's fun!
 And as a positive side effect, this is a good way to learn a lot about the
 internals of modern microcontrollers, or computers in general.
 
-### Copyright
+## Licensing
 
 Copyright 2019, Arnaud Ferraris.
 
