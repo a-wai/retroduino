@@ -622,107 +622,105 @@ NoConn ~ 1825 5025
 $Comp
 L Retro_Project:GAL22V10 U5
 U 1 1 5DF7E8D6
-P 5925 7900
-F 0 "U5" H 6225 8725 50  0000 L CNN
-F 1 "GAL22V10" H 6025 8625 50  0000 L CNN
-F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 5925 7950 50  0001 C CNN
-F 3 "" H 5925 7950 50  0001 C CNN
-	1    5925 7900
+P 8650 7750
+F 0 "U5" H 8950 8575 50  0000 L CNN
+F 1 "GAL22V10" H 8750 8475 50  0000 L CNN
+F 2 "Package_DIP:DIP-24_W7.62mm_Socket_LongPads" H 8650 7800 50  0001 C CNN
+F 3 "" H 8650 7800 50  0001 C CNN
+	1    8650 7750
 	1    0    0    -1  
 $EndComp
-Text Label 5200 7650 0    50   ~ 0
+Text Label 7925 7500 0    50   ~ 0
 A12
 Wire Wire Line
-	5425 7650 5200 7650
-Text Label 5200 8350 0    50   ~ 0
+	8150 7500 7925 7500
+Text Label 7925 8200 0    50   ~ 0
 A11
 Wire Wire Line
-	5425 8350 5200 8350
-Text Label 5200 7850 0    50   ~ 0
+	8150 8200 7925 8200
+Text Label 7925 7700 0    50   ~ 0
 A14
 Wire Wire Line
-	5425 7850 5200 7850
-Text Label 5200 7750 0    50   ~ 0
+	8150 7700 7925 7700
+Text Label 7925 7600 0    50   ~ 0
 A13
 Wire Wire Line
-	5425 7750 5200 7750
-Text Label 5200 8250 0    50   ~ 0
+	8150 7600 7925 7600
+Text Label 7925 8100 0    50   ~ 0
 A10
 Wire Wire Line
-	5425 8250 5200 8250
-Text Label 5200 8050 0    50   ~ 0
+	8150 8100 7925 8100
+Text Label 7925 7900 0    50   ~ 0
 A8
 Wire Wire Line
-	5425 8050 5200 8050
-Text Label 5200 8150 0    50   ~ 0
+	8150 7900 7925 7900
+Text Label 7925 8000 0    50   ~ 0
 A9
 Wire Wire Line
-	5425 8150 5200 8150
-Text Label 5200 7950 0    50   ~ 0
+	8150 8000 7925 8000
+Text Label 7925 7800 0    50   ~ 0
 A15
 Wire Wire Line
-	5425 7950 5200 7950
-Text Label 5200 7550 0    50   ~ 0
+	8150 7800 7925 7800
+Text Label 7925 7400 0    50   ~ 0
 ~WR~
 Wire Wire Line
-	5425 7550 5200 7550
-Text Label 6650 8150 2    50   ~ 0
+	8150 7400 7925 7400
+Text Label 9375 8000 2    50   ~ 0
 ~RAM~
 Wire Wire Line
-	6425 8150 6650 8150
-Text Label 6650 8050 2    50   ~ 0
+	9150 8000 9375 8000
+Text Label 9375 7900 2    50   ~ 0
 ~ROM~
 Wire Wire Line
-	6425 8050 6650 8050
-Text Label 6650 7350 2    50   ~ 0
+	9150 7900 9375 7900
+Text Label 9375 7200 2    50   ~ 0
 ~IO1~
 Wire Wire Line
-	6425 7350 6650 7350
-Text Label 6650 8250 2    50   ~ 0
+	9150 7200 9375 7200
+Text Label 9375 8100 2    50   ~ 0
 ~RD~
 Wire Wire Line
-	6425 8250 6650 8250
-Text Label 6650 7450 2    50   ~ 0
+	9150 8100 9375 8100
+Text Label 9375 7300 2    50   ~ 0
 ~IO2~
 Wire Wire Line
-	6425 7450 6650 7450
-Text Label 6650 7550 2    50   ~ 0
+	9150 7300 9375 7300
+Text Label 9375 7400 2    50   ~ 0
 ~IO3~
 Wire Wire Line
-	6425 7550 6650 7550
-Text Label 6650 7650 2    50   ~ 0
+	9150 7400 9375 7400
+Text Label 9375 7500 2    50   ~ 0
 ~IO4~
 Wire Wire Line
-	6425 7650 6650 7650
+	9150 7500 9375 7500
 $Comp
 L power:GND #PWR011
 U 1 1 5E031C31
-P 5925 8650
-F 0 "#PWR011" H 5925 8400 50  0001 C CNN
-F 1 "GND" H 5930 8475 50  0000 C CNN
-F 2 "" H 5925 8650 50  0001 C CNN
-F 3 "" H 5925 8650 50  0001 C CNN
-	1    5925 8650
+P 8650 8500
+F 0 "#PWR011" H 8650 8250 50  0001 C CNN
+F 1 "GND" H 8655 8325 50  0000 C CNN
+F 2 "" H 8650 8500 50  0001 C CNN
+F 3 "" H 8650 8500 50  0001 C CNN
+	1    8650 8500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR010
 U 1 1 5E03D143
-P 5925 7150
-F 0 "#PWR010" H 5925 7000 50  0001 C CNN
-F 1 "+5V" H 5940 7325 50  0000 C CNN
-F 2 "" H 5925 7150 50  0001 C CNN
-F 3 "" H 5925 7150 50  0001 C CNN
-	1    5925 7150
+P 8650 7000
+F 0 "#PWR010" H 8650 6850 50  0001 C CNN
+F 1 "+5V" H 8665 7175 50  0000 C CNN
+F 2 "" H 8650 7000 50  0001 C CNN
+F 3 "" H 8650 7000 50  0001 C CNN
+	1    8650 7000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6425 7950
-NoConn ~ 6425 7850
-NoConn ~ 6425 7750
+NoConn ~ 9150 7800
+NoConn ~ 9150 7700
+NoConn ~ 9150 7600
 Text Label 1600 3925 0    50   ~ 0
 ~IRQ~
-Wire Wire Line
-	1825 3925 1600 3925
 Text Label 3575 7750 2    50   ~ 0
 ~RST~
 Wire Wire Line
@@ -1936,37 +1934,20 @@ Wire Wire Line
 	6075 5125 6300 5125
 Wire Wire Line
 	6075 4925 6075 5125
-NoConn ~ 5425 7350
-NoConn ~ 5425 7450
-NoConn ~ 5425 8450
+NoConn ~ 8150 7200
+NoConn ~ 8150 7300
+NoConn ~ 8150 8300
 $Comp
 L power:+5V #PWR027
 U 1 1 5E33BE30
-P 1425 4025
-F 0 "#PWR027" H 1425 3875 50  0001 C CNN
-F 1 "+5V" H 1440 4200 50  0000 C CNN
-F 2 "" H 1425 4025 50  0001 C CNN
-F 3 "" H 1425 4025 50  0001 C CNN
-	1    1425 4025
+P 5375 7675
+F 0 "#PWR027" H 5375 7525 50  0001 C CNN
+F 1 "+5V" H 5390 7850 50  0000 C CNN
+F 2 "" H 5375 7675 50  0001 C CNN
+F 3 "" H 5375 7675 50  0001 C CNN
+	1    5375 7675
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1425 4025 1825 4025
-Wire Wire Line
-	1425 4025 1425 4625
-Wire Wire Line
-	1425 4625 1825 4625
-Connection ~ 1425 4025
-Wire Wire Line
-	1825 4725 1425 4725
-Wire Wire Line
-	1425 4725 1425 4625
-Connection ~ 1425 4625
-Wire Wire Line
-	1425 4725 1425 5525
-Wire Wire Line
-	1425 5525 1825 5525
-Connection ~ 1425 4725
 $Comp
 L Device:R_Small R1
 U 1 1 5E3E8733
@@ -1985,7 +1966,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 7550 2350 7550
 Connection ~ 2350 7550
-Text Notes 7000 7875 0    50   ~ 0
+Text Notes 9725 7725 0    50   ~ 0
 ROM - $8000-$FFFF (32kB)\nRAM - $0000-$7BFF (31kB)\nIO   - $7C00-$7FFF (1kB)
 $Comp
 L Connector_Generic:Conn_01x02 J7
@@ -2007,6 +1988,61 @@ Wire Wire Line
 	8825 9975 9225 9975
 Wire Wire Line
 	9225 9975 9225 9925
+Connection ~ 8825 9975
+$Comp
+L Device:R_Network04 RN1
+U 1 1 5DE24362
+P 5575 7875
+F 0 "RN1" V 5155 7875 50  0000 C CNN
+F 1 "3.3K" V 5248 7875 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 5950 7875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5575 7875 50  0001 C CNN
+	1    5575 7875
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1825 3925 1600 3925
+Text Label 1600 4025 0    50   ~ 0
+~NMI~
+Wire Wire Line
+	1825 4025 1600 4025
+Text Label 1600 4625 0    50   ~ 0
+RDY
+Wire Wire Line
+	1825 4625 1600 4625
+Text Label 1600 5525 0    50   ~ 0
+~SO~
+Wire Wire Line
+	1825 5525 1600 5525
+Text Label 6000 7975 2    50   ~ 0
+~SO~
+Wire Wire Line
+	5775 7975 6000 7975
+Text Label 6000 7775 2    50   ~ 0
+~IRQ~
+Wire Wire Line
+	5775 7775 6000 7775
+Text Label 6000 7875 2    50   ~ 0
+~NMI~
+Wire Wire Line
+	5775 7875 6000 7875
+Text Label 6000 7675 2    50   ~ 0
+RDY
+Wire Wire Line
+	5775 7675 6000 7675
+$Comp
+L power:+5V #PWR0103
+U 1 1 5E0B2A73
+P 1375 4725
+F 0 "#PWR0103" H 1375 4575 50  0001 C CNN
+F 1 "+5V" H 1390 4900 50  0000 C CNN
+F 2 "" H 1375 4725 50  0001 C CNN
+F 3 "" H 1375 4725 50  0001 C CNN
+	1    1375 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1375 4725 1825 4725
 Wire Bus Line
 	13425 2600 13425 3700
 Wire Bus Line
@@ -2029,5 +2065,4 @@ Wire Bus Line
 	5975 2600 5975 4425
 Wire Bus Line
 	3350 2600 3350 4525
-Connection ~ 8825 9975
 $EndSCHEMATC
